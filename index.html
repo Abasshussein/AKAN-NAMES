@@ -7,42 +7,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AKAN-NAMES</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <h1>AKAN-NAMES</h1>
-            <p>Akan-names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as
-                a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names</p>
-            <ul>
-                <ol>
-                    <h1>MALE</h1>
-                    <li><strong>Sunday:</strong>Kwasi</li>
-                    <li><strong>Monday: </strong>Kwadwo</li>
-                    <li><strong>Tuesday: </strong>Kwabena</li>
-                    <li><strong>Wednesday: </strong>Kwaku</li>
-                    <li><strong>Thursday: </strong>Yaw</li>
-                    <li><strong>Friday: </strong>Kofi</li>
-                    <li><strong>Saturday: </strong>Kwame</li>
-                </ol>
-            </ul>
-            <div class="ghanian names">
-                <ul>
-                    <ol>
-                        <h1>FEMALE</h1>
-                        <li><strong>Sunday:</strong>Akosua</li>
-                        <li><strong>Monday:</strong>Adwoa</li>
-                        <li><strong>Tuesday:</strong>Abenaa</li>
-                        <li><strong>Wednesday:</strong>Akua</li>
-                        <li><strong>Thursday:</strong>Yaa</li>
-                        <li><strong>Friday:</strong>Afua</li>
-                        <li><strong>Saturday:</strong>Ama</li>
-                    </ol>
-                </ul>
+        <div class="unknown">
+            <div class="jumbotron" style="background-color: grey; text-align: center;">
+                <h1>AKAN-NAMES</h1>
             </div>
+            <div class="paragraph">
+                <p>Akan-names are derived from Ghanian culture. Frequently in Ghana, children are given their first name
+                    as
+                    a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names</p>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputday" style="font-size: 20px;">DAY</label>
+                    <input type="number" placeholder="Enter Day" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputmonth" style="font-size: 20px;">MONTH</label>
+                    <input type="number" placeholder="Enter Month" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputyear" style="font-size: 20px;">YEAR</label>
+                    <input type="number" placeholder="Enter year" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputgender">GENDER</label>
+                    <!-- <input type="" placeholder="Enter gender" class="form-control" id="exampleInputPassword1"> -->
+                </div>
+                <!-- <div class="form-group form-check"> -->
+                <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+                <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
         </div>
+        <div>
+            <input type="radio" name="gender" id="gender" value="male" checked> Male<br><br>
+            <input type="radio" name="gender" id="gender" value="female" checked> Female<br><br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div><br>
+            <p><em style="font-size: 20px;">&copy;2020 All Rights Reserved</em></p>
+        </div>
+        </form>
     </div>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" -->
+        <!-- integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" -->
+        <!-- crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" -->
+        <!-- integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" -->
+        <!-- crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" -->
+        <!-- integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" -->
+        <!-- crossorigin="anonymous"></script> -->
+        <div><script src="js/script.js"></script></div>
+
 </body>
 
 </html>

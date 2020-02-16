@@ -4,10 +4,10 @@
 #### Author information
 - HUSSEIN ABASS MOHAMED
 ## Setup instructions
-- Download the zipped file
-- Extract the file
--  Change directory of the project folder
-- touch index.html 
+- Download the zipped file.
+- Extract the file.
+-  Change directory of the project folder.
+- touch index.html.
 - code .
 ## BDD
 - The website will require a user to click submit and fill out information about his date of birth as follows enter century,year,month,date of birthand gender respectively. The application calculates the the Akan name and the day as an output.

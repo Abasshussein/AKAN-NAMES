@@ -20,6 +20,6 @@ Note: All input should be in Numbers except the gender.
 - Github link: https://abasshussein.github.io/AKAN-NAMES/
 ## Contact information
 - Email: abasshussein03@gmail.com
-- Phone-no: 0736623078/0798017031
+- Phone-no: 0736623078/0798017031.
 ## Licence and copyright information
 - MIT Licenced Copyright (c) 2020 (HUSSEIN ABASS MOHAMED).

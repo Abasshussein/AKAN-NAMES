@@ -7,68 +7,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AKAN-NAMES</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
+
     <div class="container">
-        <div class="unknown">
-            <div class="jumbotron" style="background-color: grey; text-align: center;">
-                <h1>AKAN-NAMES</h1>
+        <div class="jumbotron" style="text-align: center;">
+            <h1 style="font-size: 45px; text-transform: uppercase;">Akan Names</h1>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="century" class="labels">Century</label>
+                <input type="number" class="form-control" placeholder="CC" id="century" required min="1" max="30">
             </div>
-            <div class="paragraph">
-                <p>Akan-names are derived from Ghanian culture. Frequently in Ghana, children are given their first name
-                    as
-                    a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names</p>
+            <div class="form-group">
+                <label for="year" class="labels">Year</label>
+                <input type="number" class="form-control" placeholder="YY" id="year" required min="1" max="100">
             </div>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputday" style="font-size: 20px;">DAY</label>
-                    <input type="number" placeholder="Enter Day" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted"></small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputmonth" style="font-size: 20px;">MONTH</label>
-                    <input type="number" placeholder="Enter Month" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted"></small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputyear" style="font-size: 20px;">YEAR</label>
-                    <input type="number" placeholder="Enter year" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted"></small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputgender">GENDER</label>
-                    <!-- <input type="" placeholder="Enter gender" class="form-control" id="exampleInputPassword1"> -->
-                </div>
-                <!-- <div class="form-group form-check"> -->
-                <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
-                <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
-        </div>
-        <div>
-            <input type="radio" name="gender" id="gender" value="male" checked> Male<br><br>
-            <input type="radio" name="gender" id="gender" value="female" checked> Female<br><br>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-        <div><br>
-            <p><em style="font-size: 20px;">&copy;2020 All Rights Reserved</em></p>
-        </div>
+            <div class="form-group">
+                <label for="month" class="labels">Month</label>
+                <input type="MM" class="form-control" placeholder="MM" id="month" required min="1" max="12">
+            </div>
+            <div class="form-group">
+                <label for="monthDay" class="labels">Date of birth</label>
+                <input type="DOB" class="form-control" placeholder="DOB" id="monthday" required min="0" max="12">
+            </div>
+
+            <form class="radio-button">
+                <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male<br><br>
+                <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+            </form>
+            <br>
+            <a href="#result"><button type="button" class="btn btn-outline-primary" name="button"
+                    onclick="checkDayOfWeek();">Submit</button></a><br><br>
+            <p id="result" style="font-size: 30px;"></p>
         </form>
     </div>
-    </div>
 
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" -->
-        <!-- integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" -->
-        <!-- crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" -->
-        <!-- integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" -->
-        <!-- crossorigin="anonymous"></script> -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" -->
-        <!-- integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" -->
-        <!-- crossorigin="anonymous"></script> -->
-        <div><script src="js/script.js"></script></div>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>

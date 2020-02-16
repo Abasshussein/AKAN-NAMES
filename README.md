@@ -2,7 +2,7 @@
 #### Project description
 - The project basically shows and explain how one can fill out the form and get his/her Akan name in Ghanian.
 #### Author information
-- HUSSEIN ABASS MOHAMED
+- HUSSEIN ABASS MOHAMED.
 ## Setup instructions
 - Download the zipped file.
 - Extract the file.
